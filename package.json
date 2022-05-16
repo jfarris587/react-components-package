@@ -9,7 +9,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jfarris587/react-components-package.git"
+    "url": "git+https://github.com/jfarris587/react-components-package.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/jfarris587"
