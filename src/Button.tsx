@@ -6,6 +6,6 @@ interface ButtonProps {
   isSmall?: boolean;
 }
 
-export function Button({}: PropsWithChildren<{}>) {
+export function Button({}: PropsWithChildren<ButtonProps>) {
   return <div tw="p-8 bg-blue-400">asdf</div>;
 }

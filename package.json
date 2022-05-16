@@ -12,7 +12,7 @@
     "url": "git+https://github.com/jfarris587/react-components-package.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/jfarris587"
+    "registry": "https://npm.pkg.github.com/@jfarris587"
   },
   "files": [
     "dist"
