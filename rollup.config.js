@@ -23,15 +23,11 @@ export default {
     peerDepsExternal(),
     resolve({ extensions: config.extensions }),
     commonjs(),
-
+    typescript(),
     babel({
       extensions: config.extensions,
       include: ["src/**/*"],
       exclude: "node_modules/**",
-    }),
-
-    typescript({
-      useTsconfigDeclarationDir: true,
     }),
   ],
 };

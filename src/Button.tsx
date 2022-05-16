@@ -1,4 +1,3 @@
-import { PropsWithChildren } from "react";
 import tw from "twin.macro";
 
 interface ButtonProps {
@@ -6,6 +5,10 @@ interface ButtonProps {
   isSmall?: boolean;
 }
 
-export function Button({}: PropsWithChildren<ButtonProps>) {
-  return <div tw="p-8 bg-blue-400">asdf</div>;
+export function Button({ isSmall }: ButtonProps) {
+  return (
+    <button css={tw`p-8 bg-blue-400`}>
+      {isSmall ? "SMALL" : "LARGE"} asdf
+    </button>
+  );
 }
